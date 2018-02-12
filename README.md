@@ -1,3 +1,28 @@
+## Testing Synopsis
+
+To test the Paint Calculator application, automated functional tests were created using java, cucumber and selenium webdriver. Please see instructions for running the tests below:
+
+## Requirements
+
+1. Java 8
+2. Maven
+3. Firefox or Chrome browser
+4. Paint calculator app running in localhost at port 5000
+
+## Instructions
+1. Clone project
+2. To run the test: 
+	From root folder of paint-calculator-test, run: mvn test -DBrowser=chrome
+	For running using firefox browser, use -DBrowser=firefox
+3. Once automated tests are complete, report will be available at output/test_report.html
+4. Test plan created in BDD gherkin format - resources/PaintCalculator.feature
+
+## Notes
+Made two fixes in the paint calculator application:
+1. Fixed formula for calculating surface area
+2. Fixed formula and rounding for calculating gallons required 
+
+---
 ## Synopsis
 
 The **Paint Calculator** is a hypothetical project that calculates how many gallons of paint would be required to paint a number of rooms.
